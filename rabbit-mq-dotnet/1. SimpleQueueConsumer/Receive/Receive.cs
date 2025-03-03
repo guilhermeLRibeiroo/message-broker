@@ -2,7 +2,7 @@
 using RabbitMQ.Client.Events;
 using System.Text;
 
-namespace _1._SimpleQueueConsumer.Receive
+namespace _1._SimpleQueueConsumer
 {
     public class Receive
     {
