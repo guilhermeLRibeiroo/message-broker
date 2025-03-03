@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+﻿using _1._SimpleQueueConsumer.Receive;
+using _1._SimpleQueueConsumer.Send;
+
+var producer = new Send();
+await producer.SendMessage();
+
+var consumer = new Receive();
+await consumer.ReceiveMessage();
